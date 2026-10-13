@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1230" viewBox="0 0 1920 1230">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5A6375"/></marker><marker id="ahs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5A6375"/></marker></defs>
+<rect width="1920" height="1230" fill="#FAFBFD"/>
+<text x="960.0" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" fill="#1D2330" font-weight="600">System Architecture — AI-Powered OCR &amp; Document Understanding System</text>
+<text x="960.0" y="98" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5A6375">Next.js frontend  •  FastAPI backend  •  Local AI/ML pipeline  •  SQLite + Qdrant vector database</text>
+<rect x="90" y="170" width="200" height="80" rx="12" fill="#EEF0F3" stroke="#5B6675" stroke-width="2"/>
+<text x="190.0" y="208.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#36404D">User</text>
+<text x="190.0" y="228.75" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" fill="#5A6375">Web browser</text>
+<path d="M 190 250 L 190 300" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" marker-start="url(#ahs)" stroke-linejoin="round"/>
+<rect x="40" y="300" width="300" height="670" rx="18" fill="#FFFFFF" stroke="#2F6FD6" stroke-width="2.5" stroke-dasharray="0"/>
+<rect x="40" y="300" width="300" height="62" rx="18" fill="#2F6FD6"/>
+<rect x="40" y="340" width="300" height="22" fill="#2F6FD6"/>
+<text x="190.0" y="328" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Frontend (Client)</text>
+<text x="190.0" y="350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" fill="#FFFFFF" opacity="0.92">Next.js 14 · React 18 · TypeScript · Tailwind</text>
+<rect x="62" y="380" width="256" height="48" rx="9" fill="#E8F1FD" stroke="#2F6FD6" stroke-width="1.5"/>
+<text x="190.0" y="401.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B4F9C">Dropzone</text>
+<text x="190.0" y="420.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">file upload</text>
+<rect x="62" y="438" width="256" height="48" rx="9" fill="#E8F1FD" stroke="#2F6FD6" stroke-width="1.5"/>
+<text x="190.0" y="459.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B4F9C">Results Panel</text>
+<text x="190.0" y="478.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">text · type · entities · summary</text>
+<rect x="62" y="496" width="256" height="48" rx="9" fill="#E8F1FD" stroke="#2F6FD6" stroke-width="1.5"/>
+<text x="190.0" y="517.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B4F9C">Chat Panel</text>
+<text x="190.0" y="536.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">ask questions</text>
+<rect x="62" y="554" width="256" height="48" rx="9" fill="#E8F1FD" stroke="#2F6FD6" stroke-width="1.5"/>
+<text x="190.0" y="575.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B4F9C">Translate Panel</text>
+<text x="190.0" y="594.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">multi-language</text>
+<rect x="62" y="612" width="256" height="48" rx="9" fill="#E8F1FD" stroke="#2F6FD6" stroke-width="1.5"/>
+<text x="190.0" y="633.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B4F9C">TTS Button</text>
+<text x="190.0" y="652.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">listen to text</text>
+<rect x="62" y="670" width="256" height="48" rx="9" fill="#E8F1FD" stroke="#2F6FD6" stroke-width="1.5"/>
+<text x="190.0" y="691.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B4F9C">Export Buttons</text>
+<text x="190.0" y="710.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">PDF · DOCX · XLSX</text>
+<rect x="62" y="882" width="256" height="70" rx="9" fill="#D6E6FB" stroke="#2F6FD6" stroke-width="2"/>
+<text x="190.0" y="914.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#1B4F9C">API Client (Axios)</text>
+<text x="190.0" y="933.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">lib/api.ts</text>
+<rect x="420" y="300" width="260" height="670" rx="18" fill="#FFFFFF" stroke="#1E9E62" stroke-width="2.5" stroke-dasharray="0"/>
+<rect x="420" y="300" width="260" height="62" rx="18" fill="#1E9E62"/>
+<rect x="420" y="340" width="260" height="22" fill="#1E9E62"/>
+<text x="550.0" y="328" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Backend API</text>
+<text x="550.0" y="350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" fill="#FFFFFF" opacity="0.92">FastAPI · Uvicorn · port 8000</text>
+<rect x="440" y="410" width="220" height="52" rx="9" fill="#E6F6EE" stroke="#1E9E62" stroke-width="1.5"/>
+<text x="550.0" y="433.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#11704A">POST /upload</text>
+<text x="550.0" y="452.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">OCR + analysis</text>
+<rect x="440" y="490" width="220" height="52" rx="9" fill="#E6F6EE" stroke="#1E9E62" stroke-width="1.5"/>
+<text x="550.0" y="513.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#11704A">POST /chat</text>
+<text x="550.0" y="532.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">document Q&amp;A</text>
+<rect x="440" y="570" width="220" height="52" rx="9" fill="#E6F6EE" stroke="#1E9E62" stroke-width="1.5"/>
+<text x="550.0" y="593.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#11704A">POST /translate</text>
+<text x="550.0" y="612.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">translation</text>
+<rect x="440" y="650" width="220" height="52" rx="9" fill="#E6F6EE" stroke="#1E9E62" stroke-width="1.5"/>
+<text x="550.0" y="673.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#11704A">POST /tts</text>
+<text x="550.0" y="692.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">text to speech</text>
+<rect x="440" y="730" width="220" height="52" rx="9" fill="#E6F6EE" stroke="#1E9E62" stroke-width="1.5"/>
+<text x="550.0" y="753.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#11704A">POST /export/{fmt}</text>
+<text x="550.0" y="772.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">file download</text>
+<path d="M 340 560 L 420 560" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" marker-start="url(#ahs)" stroke-linejoin="round"/>
+<rect x="342.76" y="526" width="74.48" height="21" rx="5" fill="#FFFFFF"/>
+<text x="380" y="540" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#3C4454" font-weight="600">REST/JSON</text>
+<rect x="745" y="170" width="780" height="800" rx="18" fill="#FFFFFF" stroke="#E08A1E" stroke-width="2.5" stroke-dasharray="0"/>
+<rect x="745" y="170" width="780" height="62" rx="18" fill="#E08A1E"/>
+<rect x="745" y="210" width="780" height="22" fill="#E08A1E"/>
+<text x="1135.0" y="198" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">AI Processing Services</text>
+<text x="1135.0" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" fill="#FFFFFF" opacity="0.92">Python service layer · PyTorch · Hugging Face Transformers</text>
+<text x="775" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#9A5A0B" letter-spacing="0.4">①  DOCUMENT INGESTION &amp; OCR PIPELINE</text>
+<rect x="775" y="272" width="158" height="86" rx="12" fill="#FFF3E2" stroke="#E08A1E" stroke-width="2"/>
+<text x="854.0" y="303.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#9A5A0B">Document Loader</text>
+<text x="854.0" y="323.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">PDF · DOCX · TXT</text>
+<text x="854.0" y="340.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">Images (PyMuPDF)</text>
+<rect x="963" y="272" width="158" height="86" rx="12" fill="#FFF3E2" stroke="#E08A1E" stroke-width="2"/>
+<text x="1042.0" y="303.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#9A5A0B">Preprocessing</text>
+<text x="1042.0" y="323.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">OpenCV: warp,</text>
+<text x="1042.0" y="340.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">deskew, upscale</text>
+<rect x="1151" y="272" width="158" height="86" rx="12" fill="#FFF3E2" stroke="#E08A1E" stroke-width="2"/>
+<text x="1230.0" y="303.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#9A5A0B">OCR Engine</text>
+<text x="1230.0" y="323.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">EasyOCR (printed)</text>
+<text x="1230.0" y="340.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">TrOCR (handwriting)</text>
+<rect x="1339" y="272" width="158" height="86" rx="12" fill="#FFF3E2" stroke="#E08A1E" stroke-width="2"/>
+<text x="1418.0" y="303.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#9A5A0B">Text Correction</text>
+<text x="1418.0" y="323.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">LanguageTool</text>
+<text x="1418.0" y="340.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">grammar &amp; spelling</text>
+<path d="M 933 315 L 963 315" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 1121 315 L 1151 315" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 1309 315 L 1339 315" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 1418 358 L 1418 376" fill="none" stroke="#5A6375" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 854 376 L 1418 376" fill="none" stroke="#5A6375" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 854 376 L 854 398" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="775" y="398" width="158" height="86" rx="12" fill="#F3ECFD" stroke="#7C4DDB" stroke-width="2"/>
+<text x="854.0" y="429.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#5631A8">Classification</text>
+<text x="854.0" y="449.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">Keywords +</text>
+<text x="854.0" y="466.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">DistilBERT-MNLI</text>
+<path d="M 1042 376 L 1042 398" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="963" y="398" width="158" height="86" rx="12" fill="#F3ECFD" stroke="#7C4DDB" stroke-width="2"/>
+<text x="1042.0" y="429.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#5631A8">Info Extraction</text>
+<text x="1042.0" y="449.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">spaCy NER</text>
+<text x="1042.0" y="466.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">+ regex rules</text>
+<path d="M 1230 376 L 1230 398" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="1151" y="398" width="158" height="86" rx="12" fill="#F3ECFD" stroke="#7C4DDB" stroke-width="2"/>
+<text x="1230.0" y="429.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#5631A8">Summarization</text>
+<text x="1230.0" y="449.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">Sumy LexRank</text>
+<text x="1230.0" y="466.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">(extractive)</text>
+<path d="M 1418 376 L 1418 398" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="1339" y="398" width="158" height="86" rx="12" fill="#F3ECFD" stroke="#7C4DDB" stroke-width="2"/>
+<text x="1418.0" y="429.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#5631A8">RAG Indexing</text>
+<text x="1418.0" y="449.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">200-word chunks</text>
+<text x="1418.0" y="466.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">BGE-M3 embeddings</text>
+<text x="775" y="548" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#9E2343" letter-spacing="0.4">②  CHAT · RAG Q&amp;A</text>
+<rect x="775" y="560" width="220" height="72" rx="12" fill="#FDEBEF" stroke="#D9466A" stroke-width="2"/>
+<text x="885.0" y="593.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#9E2343">Semantic Retriever</text>
+<text x="885.0" y="613.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">Qdrant · top-3 chunks</text>
+<rect x="1025" y="560" width="220" height="72" rx="12" fill="#FDEBEF" stroke="#D9466A" stroke-width="2"/>
+<text x="1135.0" y="593.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#9E2343">Answer Generator</text>
+<text x="1135.0" y="613.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">FLAN-T5-base (LLM)</text>
+<rect x="1275" y="560" width="220" height="72" rx="12" fill="#FDEBEF" stroke="#D9466A" stroke-width="2"/>
+<text x="1385.0" y="593.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#9E2343">Multilingual Q&amp;A</text>
+<text x="1385.0" y="613.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">langdetect + translate</text>
+<path d="M 995 596 L 1025 596" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 1245 596 L 1275 596" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<text x="775" y="690" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0E6B78" letter-spacing="0.4">③  OUTPUT SERVICES</text>
+<rect x="775" y="702" width="220" height="72" rx="12" fill="#E5F6F8" stroke="#1A97A8" stroke-width="2"/>
+<text x="885.0" y="735.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#0E6B78">Export</text>
+<text x="885.0" y="755.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">ReportLab · DOCX · XLSX</text>
+<rect x="1025" y="702" width="220" height="72" rx="12" fill="#E5F6F8" stroke="#1A97A8" stroke-width="2"/>
+<text x="1135.0" y="735.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#0E6B78">Translation</text>
+<text x="1135.0" y="755.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">100+ languages</text>
+<rect x="1275" y="702" width="220" height="72" rx="12" fill="#E5F6F8" stroke="#1A97A8" stroke-width="2"/>
+<text x="1385.0" y="735.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#0E6B78">Text-to-Speech</text>
+<text x="1385.0" y="755.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">gTTS / pyttsx3</text>
+<path d="M 1245 738 L 1275 738" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 660 436 L 712 436 L 712 315 L 775 315" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 660 516 L 728 516 L 728 596 L 775 596" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 660 596 L 698 596 L 698 756 L 660 756" fill="none" stroke="#5A6375" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 660 676 L 698 676" fill="none" stroke="#5A6375" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 698 738 L 775 738" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="1590" y="170" width="290" height="400" rx="18" fill="#FFFFFF" stroke="#5B6675" stroke-width="2.5" stroke-dasharray="0"/>
+<rect x="1590" y="170" width="290" height="62" rx="18" fill="#5B6675"/>
+<rect x="1590" y="210" width="290" height="22" fill="#5B6675"/>
+<text x="1735.0" y="198" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Data Storage</text>
+<text x="1735.0" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" fill="#FFFFFF" opacity="0.92">local persistence</text>
+<rect x="1612" y="248" width="246" height="92" rx="12" fill="#EEF0F3" stroke="#5B6675" stroke-width="2"/>
+<text x="1735.0" y="283.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#36404D">SQLite</text>
+<text x="1735.0" y="302.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">SQLAlchemy ORM</text>
+<text x="1735.0" y="320.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">documents · chat history</text>
+<rect x="1612" y="354" width="246" height="92" rx="12" fill="#EEF0F3" stroke="#5B6675" stroke-width="2"/>
+<text x="1735.0" y="389.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#36404D">Qdrant Vector DB</text>
+<text x="1735.0" y="408.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">embedded · cosine similarity</text>
+<text x="1735.0" y="426.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">document_chunks</text>
+<rect x="1612" y="460" width="246" height="92" rx="12" fill="#EEF0F3" stroke="#5B6675" stroke-width="2"/>
+<text x="1735.0" y="495.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#36404D">File System</text>
+<text x="1735.0" y="514.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">uploads/  ·  outputs/</text>
+<text x="1735.0" y="532.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5A6375">audio, exports &amp; redacted files</text>
+<rect x="1590" y="600" width="290" height="220" rx="18" fill="#FFFFFF" stroke="#B84A4A" stroke-width="2.5" stroke-dasharray="0"/>
+<rect x="1590" y="600" width="290" height="62" rx="18" fill="#B84A4A"/>
+<rect x="1590" y="640" width="290" height="22" fill="#B84A4A"/>
+<text x="1735.0" y="628" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">External Services</text>
+<text x="1735.0" y="650" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" fill="#FFFFFF" opacity="0.92">internet APIs (with offline fallback)</text>
+<rect x="1612" y="676" width="246" height="60" rx="12" fill="#FDF0F0" stroke="#B84A4A" stroke-width="2"/>
+<text x="1735.0" y="703.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#8A2E2E">Google Translate</text>
+<text x="1735.0" y="722.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">fallback: MyMemory</text>
+<rect x="1612" y="746" width="246" height="60" rx="12" fill="#FDF0F0" stroke="#B84A4A" stroke-width="2"/>
+<text x="1735.0" y="773.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#8A2E2E">Google TTS (gTTS)</text>
+<text x="1735.0" y="792.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">fallback: pyttsx3 offline</text>
+<path d="M 1497 300 L 1612 300" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="1533.56" y="279" width="40.88" height="21" rx="5" fill="#FFFFFF"/>
+<text x="1554" y="293" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#3C4454" font-weight="600">save</text>
+<path d="M 1497 410 L 1612 410" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="1523.48" y="389" width="61.040000000000006" height="21" rx="5" fill="#FFFFFF"/>
+<text x="1554" y="403" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#3C4454" font-weight="600">vectors</text>
+<path d="M 1612 436 L 1566 436 L 1566 520 L 965 520 L 965 560" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<rect x="1160.88" y="510" width="128.24" height="21" rx="5" fill="#FFFFFF"/>
+<text x="1225" y="524" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#3C4454" font-weight="600">similarity search</text>
+<path d="M 1135 702 L 1135 662 L 1570 662 L 1570 706 L 1612 706" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 1495 776 L 1612 776" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="62" y="728" width="256" height="48" rx="9" fill="#ECEFFB" stroke="#3F51B5" stroke-width="1.5"/>
+<text x="190.0" y="749" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#283593">Accuracy Panel</text>
+<text x="190.0" y="768" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">before / after · CER / WER</text>
+<rect x="62" y="786" width="256" height="48" rx="9" fill="#ECEFFB" stroke="#3F51B5" stroke-width="1.5"/>
+<text x="190.0" y="807" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#283593">Privacy Shield Panel</text>
+<text x="190.0" y="826" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">risk · masked data · redact</text>
+<rect x="440" y="810" width="220" height="52" rx="9" fill="#ECEFFB" stroke="#3F51B5" stroke-width="1.5"/>
+<text x="550.0" y="833.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#283593">POST /accuracy/evaluate</text>
+<text x="550.0" y="852.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">CER · WER vs true text</text>
+<rect x="440" y="890" width="220" height="52" rx="9" fill="#ECEFFB" stroke="#3F51B5" stroke-width="1.5"/>
+<text x="550.0" y="913.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#283593">POST /privacy/redact</text>
+<text x="550.0" y="932.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5A6375">redacted file download</text>
+<text x="775" y="838" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#283593" letter-spacing="0.4">④  ACCURACY &amp; PRIVACY  (after correction, on every upload)</text>
+<rect x="775" y="850" width="220" height="72" rx="12" fill="#ECEFFB" stroke="#3F51B5" stroke-width="2"/>
+<text x="885.0" y="883.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#283593">Accuracy Analyzer</text>
+<text x="885.0" y="903.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">difflib diff · fix reasons</text>
+<rect x="1025" y="850" width="220" height="72" rx="12" fill="#ECEFFB" stroke="#3F51B5" stroke-width="2"/>
+<text x="1135.0" y="883.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#283593">Privacy Shield</text>
+<text x="1135.0" y="903.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">Verhoeff / Luhn · risk score</text>
+<rect x="1275" y="850" width="220" height="72" rx="12" fill="#ECEFFB" stroke="#3F51B5" stroke-width="2"/>
+<text x="1385.0" y="883.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#283593">Redaction Engine</text>
+<text x="1385.0" y="903.25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5A6375">PyMuPDF · EasyOCR boxes</text>
+<path d="M 1245 886 L 1275 886" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 660 836 L 740 836 L 740 886 L 775 886" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<path d="M 660 916 L 700 916 L 700 948 L 1385 948 L 1385 922" fill="none" stroke="#5A6375" stroke-width="2.2" marker-end="url(#ah)" stroke-linejoin="round"/>
+<rect x="40.0" y="1020" width="293.3" height="96" rx="14" fill="#FFFFFF" stroke="#D5DAE3" stroke-width="1.5"/>
+<rect x="40.0" y="1020" width="8" height="96" rx="4" fill="#E08A1E"/>
+<text x="66.0" y="1060" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1D2330" font-weight="600">Multi-format Input</text>
+<text x="66.0" y="1090" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5A6375">PDF · DOCX · TXT · images</text>
+<rect x="349.3" y="1020" width="293.3" height="96" rx="14" fill="#FFFFFF" stroke="#D5DAE3" stroke-width="1.5"/>
+<rect x="349.3" y="1020" width="8" height="96" rx="4" fill="#7C4DDB"/>
+<text x="375.3" y="1060" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1D2330" font-weight="600">Printed + Handwritten</text>
+<text x="375.3" y="1090" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5A6375">EasyOCR with TrOCR fallback</text>
+<rect x="658.7" y="1020" width="293.3" height="96" rx="14" fill="#FFFFFF" stroke="#D5DAE3" stroke-width="1.5"/>
+<rect x="658.7" y="1020" width="8" height="96" rx="4" fill="#D9466A"/>
+<text x="684.7" y="1060" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1D2330" font-weight="600">Document Intelligence</text>
+<text x="684.7" y="1090" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5A6375">type · entities · summary · Q&amp;A</text>
+<rect x="968.0" y="1020" width="293.3" height="96" rx="14" fill="#FFFFFF" stroke="#D5DAE3" stroke-width="1.5"/>
+<rect x="968.0" y="1020" width="8" height="96" rx="4" fill="#1A97A8"/>
+<text x="994.0" y="1060" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1D2330" font-weight="600">Multilingual Output</text>
+<text x="994.0" y="1090" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5A6375">translate · speak · export</text>
+<rect x="1277.3" y="1020" width="293.3" height="96" rx="14" fill="#FFFFFF" stroke="#D5DAE3" stroke-width="1.5"/>
+<rect x="1277.3" y="1020" width="8" height="96" rx="4" fill="#3F51B5"/>
+<text x="1303.3" y="1060" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1D2330" font-weight="600">Transparent Accuracy</text>
+<text x="1303.3" y="1090" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5A6375">diff · reasons · CER / WER</text>
+<rect x="1586.7" y="1020" width="293.3" height="96" rx="14" fill="#FFFFFF" stroke="#D5DAE3" stroke-width="1.5"/>
+<rect x="1586.7" y="1020" width="8" height="96" rx="4" fill="#3F51B5"/>
+<text x="1612.7" y="1060" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1D2330" font-weight="600">Privacy Shield</text>
+<text x="1612.7" y="1090" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#5A6375">detect · score · redact</text>
+<text x="960.0" y="1170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#5A6375">Flow: upload → preprocessing &amp; OCR → correction → accuracy report &amp; privacy scan → classification, extraction, summary &amp; indexing → results → chat / translate / listen / export / redact</text>
+</svg>

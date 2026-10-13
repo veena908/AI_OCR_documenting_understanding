@@ -1,0 +1,27 @@
+# secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# personal / generated data
+backend/uploads/
+backend/outputs/
+backend/qdrant_data/
+qdrant_data/
+*.db
+
+# installed libraries and build output
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# editor / tool folders
+.claude/
+.vscode/
+.idea/
